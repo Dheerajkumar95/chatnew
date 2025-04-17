@@ -8,9 +8,9 @@ const AuthImagePattern = ({ title, subtitle }) => {
     return Array.from({ length: totalBubbles }, () => ({
       top: `${Math.random() * 90}%`,
       left: `${Math.random() * 90}%`,
-      size: `${Math.random() * 20 + 8}px`, // 8px to 28px
+      size: `${Math.random() * 20 + 8}px`,  
       delay: `${Math.random() * 2}s`,
-      duration: `${Math.random() * 5 + 3}s`, // 3s to 8s
+      duration: `${Math.random() * 5 + 3}s`,  
     }));
   }, []);
 
